@@ -7,7 +7,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-
+/**
+ * create by 高 (｡◕‿◕｡) 磊
+ * 2020/11/14
+ * desc :
+ */
 public class PermissionAdapter {
 
     private Fragment fragment;

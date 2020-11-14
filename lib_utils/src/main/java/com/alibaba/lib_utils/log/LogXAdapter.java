@@ -1,12 +1,12 @@
 package com.alibaba.lib_utils.log;
 
 /**
- * log adapter
+ * 日志配置类 可扩展
  */
 public class LogXAdapter {
-    private String globalTag = "winter";
-    private boolean isShowSwitch = false;
-    private boolean showCurrentThreadName = false;
+    private String globalTag = "winter"; //全局的tag
+    private boolean isShowSwitch = false; //是否打印log开关
+    private boolean showCurrentThreadName = false; //是否显示当前线程的name
 
 
     public LogXAdapter(Builder builder) {

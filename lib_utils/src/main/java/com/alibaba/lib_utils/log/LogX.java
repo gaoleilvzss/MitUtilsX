@@ -11,7 +11,7 @@ import java.util.Set;
 
 
 /**
- * manager of log
+ * 自定义日记管理类
  */
 public class LogX {
     private static final char TOP_LEFT_CORNER = '╔';
@@ -115,6 +115,12 @@ public class LogX {
 
     }
 
+    /**
+     * 打印消息
+     *
+     * @param type
+     * @param msg
+     */
     private static void printMsg(char type, String... msg) {
         printHunk(type, HORIZONTAL_DOUBLE_LINE + "   msg:");
         for (String str : msg) {
@@ -154,9 +160,12 @@ public class LogX {
         }
         printMsg(type, msg);
     }
-//==========================================================log===============================================================
-//==========================================================log===============================================================
+//==========================================================以上为常规打印===============================================================
+//==========================================================以下为扩展打印===============================================================
 
+    /**
+     * 打印MAp
+     */
     public static void m(Map map) {
         Set set = map.entrySet();
         if (set.size() < 1) {
@@ -174,6 +183,11 @@ public class LogX {
         printLog(V, s);
     }
 
+    /**
+     * 打印JSON
+     *
+     * @param jsonStr
+     */
     public static void j(String jsonStr) {
         if (mitLogAdapter.isShowSwitch()) {
             String message;

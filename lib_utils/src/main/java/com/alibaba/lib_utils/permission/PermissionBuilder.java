@@ -6,6 +6,11 @@ import androidx.fragment.app.FragmentManager;
 
 import java.util.List;
 
+/**
+ * create by 高 (｡◕‿◕｡) 磊
+ * 2020/11/14
+ * desc :
+ */
 public class PermissionBuilder {
     private static final String FRAGMENT_TAG = "permission_fragment";
     private FragmentActivity activity;
