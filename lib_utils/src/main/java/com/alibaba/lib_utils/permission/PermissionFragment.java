@@ -8,11 +8,6 @@ import androidx.fragment.app.Fragment;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * create by 高 (｡◕‿◕｡) 磊
- * 2020/11/14
- * desc :
- */
 public class PermissionFragment extends Fragment {
     private PermissionBuilder pb;
     private static int REQUEST_NORMAL_PERMISSIONS = 1;
