@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * create by 高 (｡◕‿◕｡) 磊
  * 2020/11/14
- * desc :
+ * desc : 权限获取的fragment
  */
 public class PermissionFragment extends Fragment {
     private PermissionBuilder pb;

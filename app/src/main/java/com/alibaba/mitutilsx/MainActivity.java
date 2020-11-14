@@ -8,8 +8,13 @@ import android.os.Bundle;
 import com.alibaba.lib_utils.log.LogX;
 import com.alibaba.lib_utils.permission.PermissionUtils;
 import com.alibaba.lib_utils.thread.ThreadUtils;
-import com.alibaba.mitutilsx.R;
 
+
+/**
+ * create by 高 (｡◕‿◕｡) 磊
+ * 2020/11/14
+ * desc : test activity
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

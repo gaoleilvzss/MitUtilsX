@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * create by 高 (｡◕‿◕｡) 磊
  * 2020/11/14
- * desc :
+ * desc : 权限获取的配置类
  */
 public class PermissionBuilder {
     private static final String FRAGMENT_TAG = "permission_fragment";
