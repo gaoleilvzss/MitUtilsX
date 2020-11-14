@@ -8,7 +8,7 @@ import com.alibaba.lib_utils.log.LogXAdapter;
 /**
  * create by 高 (｡◕‿◕｡) 磊
  * 2020/11/14
- * desc :
+ * desc : test application
  */
 public class AppApplication extends Application {
     @Override

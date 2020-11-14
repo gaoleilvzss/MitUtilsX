@@ -9,9 +9,10 @@ import org.json.JSONObject;
 import java.util.Map;
 import java.util.Set;
 
-
 /**
- * 自定义日记管理类
+ * create by 高 (｡◕‿◕｡) 磊
+ * 2020/11/14
+ * desc : 自定义日记管理类
  */
 public class LogX {
     private static final char TOP_LEFT_CORNER = '╔';

@@ -9,7 +9,12 @@ import java.util.concurrent.Executors;
 /**
  * create by 高 (｡◕‿◕｡) 磊
  * 2020/11/14
- * desc :
+ * desc : 线程工具类
+ *
+ *
+ *
+ * :q
+ *
  */
 public class ThreadUtils {
     private static final Handler HANDLER = new Handler(Looper.getMainLooper());

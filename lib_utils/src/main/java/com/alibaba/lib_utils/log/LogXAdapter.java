@@ -1,7 +1,10 @@
 package com.alibaba.lib_utils.log;
 
+
 /**
- * 日志配置类 可扩展
+ * create by 高 (｡◕‿◕｡) 磊
+ * 2020/11/14
+ * desc : 日志配置类 可扩展
  */
 public class LogXAdapter {
     private String globalTag = "winter"; //全局的tag

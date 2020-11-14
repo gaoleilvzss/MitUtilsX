@@ -10,7 +10,7 @@ import androidx.fragment.app.FragmentActivity;
 /**
  * create by 高 (｡◕‿◕｡) 磊
  * 2020/11/14
- * desc :
+ * desc : 权限获取的工具类
  */
 public class PermissionUtils {
     public static PermissionAdapter init(FragmentActivity activity) {
